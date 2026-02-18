@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-cognito-sync`](https://www.npmjs.com/package/@aws-sdk/client-cognito-sync/v/3.145.0).
+[`@aws-sdk/client-cognito-sync`](https://www.npmjs.com/package/@aws-sdk/client-cognito-sync/v/3.150.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cognito-sync@3.145.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cognito-sync@3.150.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-va4sRr33vN9+i2uPfAW9NWosLkiwqVbfUB+UfhtlhTbl3Rjv8Rt/V4qB9e7QULqW
+sha384-wYNE1yqWFDwChN6++40ciNJMNqNqudUUU8RJa2QUbobNtxzhjQaTr1PncILwc/xk
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-cognito-sync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cognito-sync@3.145.0/index.min.mjs"
+            "@aws-sdk/client-cognito-sync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cognito-sync@3.150.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cognito-sync@3.145.0/index.min.mjs": "sha384-va4sRr33vN9+i2uPfAW9NWosLkiwqVbfUB+UfhtlhTbl3Rjv8Rt/V4qB9e7QULqW"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cognito-sync@3.150.0/index.min.mjs": "sha384-wYNE1yqWFDwChN6++40ciNJMNqNqudUUU8RJa2QUbobNtxzhjQaTr1PncILwc/xk"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-cognito-sync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cognito-sync@3.145.0/index.min.mjs"
+                        "@aws-sdk/client-cognito-sync": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cognito-sync@3.150.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cognito-sync@3.145.0/index.min.mjs": "sha384-va4sRr33vN9+i2uPfAW9NWosLkiwqVbfUB+UfhtlhTbl3Rjv8Rt/V4qB9e7QULqW"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-cognito-sync@3.150.0/index.min.mjs": "sha384-wYNE1yqWFDwChN6++40ciNJMNqNqudUUU8RJa2QUbobNtxzhjQaTr1PncILwc/xk"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.145.0`)
+* Always pin to a specific version (`@3.150.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-cognito-sync/blob/refs/tags/3.145.0/LICENSE
+https://github.com/cloud-sdk-builds/client-cognito-sync/blob/refs/tags/3.150.0/LICENSE
 ```
 
 ---
